@@ -85,6 +85,14 @@ nav {
   margin-top: 30px;
 }
 
+.about-text p>span{
+  background: var(--Primary-Gradient,
+      linear-gradient(116deg, #ff8660 71.79%, #9a33ff 95.51%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .about-btn {
   margin-top: 60px;
 }
