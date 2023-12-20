@@ -269,3 +269,61 @@ footer p {
   height: 40px;
   width: 40px;
 }
+
+@media only screen and (max-width: 600px){
+  .navbar{
+    font-size: 20px;
+  }
+  .logo img{
+    width: 175px;
+  }
+  .avatar img{
+    width: 400px;
+  }
+  .about-text h1{
+    font-size: 70px;
+  }
+  .about-text p{
+    font-size: 30px;
+  }
+  .btn-primary{
+    font-size: 27px;
+  }
+  .experience-with h2{
+    font-size: 35px;
+  }
+  .experience-with-lang{
+    width: 550px;
+  }
+  .primary-heading{
+    font-size: 40px;
+  }
+  .experience-title{
+    font-size: 30px;
+  }
+  .experience-item p{
+    font-size: 25px;
+  }
+  footer h2{
+    font-size: 35px;
+  }
+  footer p{
+    font-size: 25px;
+  }
+  .email-container img{
+    width: 28px;
+  }
+  .email-container .email{
+    font-size: 23px;
+  }
+  .github img{
+    width: 80px;
+  }
+  .linkedin img{
+    width: 80px;
+  }
+  .to-the-top img{
+    width: 80px;
+    height: 80px;
+  }
+}
